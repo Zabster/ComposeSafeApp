@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">SafePassApp</string>
+
+    <!-- splash screen-->
+    <string name="splash_text_first">save</string>
+    <string name="splash_text_second">your</string>
+    <string name="splash_text_third">password</string>
+
+    <!-- login screen -->
+    <string name="login_title_text">Sign in</string>
+    <string name="login_edit_text_hint">Enter the password</string>
+    <string name="login_button_text">Login in</string>
+    <string name="login_input_empty_error_text">Password required</string>
+    <string name="login_input_incorrect_error_text">Password incorrect</string>
+    <string name="login_input_small_error_text">Password length must be more than %d characters</string>
+
+    <!-- data list screen -->
+    <string name="list_data_empty_text">We don\'t have data. Use \'+\' and add your credentials</string>
+    <string name="list_data_edit_credential">Edit credential</string>
+    <string name="list_data_show_password">Show password</string>
+
+    <!-- create new credential data -->
+    <string name="new_credential_data_screen_title">Create new credential</string>
+    <string name="new_credential_data_title_hint">Title</string>
+    <string name="new_credential_data_desc_hint">Description</string>
+    <string name="new_credential_data_pass_hint">Password</string>
+    <string name="new_credential_data_category_hint">Category</string>
+    <string name="new_credential_data_category_base_text">Choose category</string>
+    <string name="new_credential_data_save_btn_text">Save</string>
+    <string name="new_credential_data_update_btn_text">Update</string>
+
+    <!-- category list -->
+    <string name="category_list_new_category_title">Choose category</string>
+    <string name="category_list_new_category_hint_text">New category name</string>
+    <string name="category_default_name">All</string>
+
+    <!-- settings -->
+    <string name="settings_screen_title">Settings</string>
+    <string name="settings_dark_theme_toggle">Dark mode</string>
+    <string name="settings_logout">Logout</string>
+
+    <!-- dialogs -->
+    <string name="dialog_loading_message">Loading.....</string>
+    <string name="dialog_loading_decrypt_message">Decrypting.....</string>
+    <string name="dialog_warning_title">Warning</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_button_copy">Copy</string>
+    <string name="dialog_button_positive">Ok</string>
+    <string name="dialog_button_negative">Cancel</string>
+
+    <string name="dialog_set_password_title_text">Saving password</string>
+    <string name="dialog_set_password_message_text">Use this password for protection your data?</string>
+    <string name="dialog_set_password_positive_action_text">Yes</string>
+    <string name="dialog_set_password_negative_action_text">No</string>
+
+    <string name="dialog_incorrect_password_message_text">This password is incorrect. Please try again</string>
+    <string name="dialog_incorrect_password_positive_action_text">Try again</string>
+
+    <string name="dialog_fail_initialize_message_text">Something wrong with database access.\nTry re-open application or save your data on login screen</string>
+    <string name="dialog_fail_initialize_positive_action_text">Ohh.. :(</string>
+
+    <string name="dialog_logout_message">Are you sure?</string>
+
+    <string name="dialog_password_error_message">Something went wrong when decrypting password data</string>
+    <string name="dialog_password_success_title">Your password is…</string>
+
+    <!-- biometrics -->
+    <string name="biometric_dialog_title">Biometric login</string>
+    <string name="biometric_dialog_subtitle">Log in using your biometric credential</string>
+    <string name="biometric_dialog_negative">Use account password</string>
+
+    <!-- errors -->
+    <string name="error_text_invalid_require_fields">Require field</string>
+    <string name="error_text_some_wrong">Something wrong</string>
+    <string name="error_text_save_error">Error save new credential</string>
+
+</resources>
